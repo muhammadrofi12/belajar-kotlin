@@ -1,5 +1,5 @@
 fun main() {
-    var grade = 'A'
+    var grade = 'Y'
 
     println("Grade " + grade++)
     println("Grade " + grade++)
@@ -9,9 +9,9 @@ fun main() {
     println("Grade " + grade--)
     println("Grade " + grade--)
 
-    val nama: String = "Rofi"
-    println("\nBelajar String")
-    val stringText = "Kotlin Language"
+    val language: String = "Kotlin"
+    println("Infinite Learning \nBelajar String " + language)
+    val stringText = "Muhammad Rofi"
     val firstChar = stringText[0]
     println("First character of $stringText is $firstChar")
 
@@ -23,6 +23,18 @@ fun main() {
     // \\ = add blacklash character
     println("Halo nama saya Rofi. \n\tSaya tinggal di Bogor. " +
             "\nSaya mengikuti program MSIB di\\ \"Infinite Learning\"")
+
+    //Raw String
+    val paragraf = """
+        |           Tugas Tech Kotlin
+        |----------------------------------------
+        |Muhammad Rofi, program mobile sesi pagi.
+        |       STT Terpadu Nurul Fikri.
+        |----------------------------------------
+        |   Kampus Merdeka - Infinite Learning
+    """.trimMargin()
+
+    println(paragraf)
 
 
     println("\n")
@@ -53,6 +65,24 @@ fun main() {
     println("x == y = ${(x == y)}" ) // false
     println("x != y = ${(x != y)}" ) // true
 
+    // Number
+    // Deklarasi variabel dengan tipe data berbeda
+    val a: Int = 20000        // Integer (bilangan bulat)
+    val d: Double = 200.50    // Double (bilangan desimal dengan presisi ganda)
+    val f: Float = 150.75f    // Float (bilangan desimal dengan presisi tunggal)
+    val l: Long = 10000000005L // Long (bilangan bulat panjang)
+    val s: Short = 20         // Short (bilangan bulat pendek)
+    val r: Byte = Byte.MAX_VALUE // Byte (nilai byte maksimum)
+
+    // Menampilkan nilai variabel
+    println("-----------")
+    println("Int Value is $a")
+    println("Double Value is $d")
+    println("Float Value is $f")
+    println("Long Value is $l")
+    println("Short Value is $s")
+    println("Byte Value is $r")
+    println("--------------")
     // Array
     val intArray: Array<Int> = arrayOf(1, 2, 3, 4, 5)
 

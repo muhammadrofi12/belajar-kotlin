@@ -6,7 +6,8 @@ fun main() {
     // Menggunakan String Template
     println("\nWe are study in ${company}")
 
-    print("Menggunakan Ekspresu dalam string")
+    print("Menggunakan Ekspresi dalam string")
+
     val score = 80
-    println("\nResult ${if (score >= 80) "You Win!!" else "Please try again!" }")
+    println("\nResult ${if (score >= 80) "Kamu Lulus!!" else "Maaf Anda belum lulus, silakan coba lagi nanti!" }")
 }
