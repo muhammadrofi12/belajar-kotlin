@@ -26,12 +26,13 @@ fun main() {
     // Memanggil fungsi deskripsi dengan parameternya
     deskripsi(
         fullName = "Muhammad Rofi",
-        semester = 5,
-        campus = "STT Terpadi Nurul Fikri",
         company = "Infinite Learning",
-        program = "Mobile Development"
+        program = "Mobile Development",
+        campus = "STT Terpadi Nurul Fikri",
+        semester = 5,
     )
-
+    // funct named argumen => dimana kita dapat memanggil parameter tidak perlu secara berurutan
+    // Yang penting harus sebutkan parameternya
 
     // Fungsi untuk menjumlahkan dua bilangan integer dan mengembalikan hasilnya
     fun sum(a: Int, b: Int): Int {

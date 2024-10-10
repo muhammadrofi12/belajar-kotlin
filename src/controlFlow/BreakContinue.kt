@@ -18,8 +18,8 @@ fun main() {
     // 3. Menggabungkan continue dan break
     println("\nMenggabungkan continue dan break:")
     for (i in 1..10) {
-        if (i % 2 == 0) continue // Lompat iterasi untuk angka genap
-        if (i == 7) break // Hentikan perulangan saat i sama dengan 7
+        if (i % 2 == 0) continue // Lompat iterasi untuk angka genap (1,3,5,7,9)
+        if (i == 7) break // Hentikan perulangan saat i sama dengan 7 (stop di 5)
         println(i)
     }
 
